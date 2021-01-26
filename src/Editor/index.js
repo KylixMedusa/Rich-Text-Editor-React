@@ -515,15 +515,19 @@ class WysiwygEditor extends Component {
             aria-hidden={(!editorFocused).toString()}
             onFocus={this.onSuggestionsFocus}
           >
-            {suggestions.map((suggestion, index) => (
-              <li
-                className="suggestion"
-                onClickCapture={(e) => this.props.onClickSuggestion(suggestion, e)}
-                key={index}
-              >
-                {suggestion}
-              </li>
-            ))}
+            <ul>
+              {suggestions.map((suggestion, index) => (
+                <li
+                  className="suggestion"
+                  onClickCapture={(e) =>
+                    this.props.onClickSuggestion(suggestion, e)
+                  }
+                  key={index}
+                >
+                  {suggestion}
+                </li>
+              ))}
+            </ul>
           </div>
         ) : null}
       </div>
