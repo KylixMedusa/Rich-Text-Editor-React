@@ -43,5 +43,13 @@ export default class FocusHandler {
     return false;
   }
 
+  isSuggestionsFocused = ():void => {
+    if (!this.editorFocused) {
+      return true;
+    }
+    this.editorFocused = false;
+    return false;
+  }
+
   isInputFocused = ():void => this.inputFocused;
 }
