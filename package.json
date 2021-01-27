@@ -1,18 +1,17 @@
 {
-  "name": "react-draft-wysiwyg",
-  "version": "1.14.5",
+  "name": "@KylixMedusa/editor-react-wysiwyg",
+  "version": "1.0.2",
   "description": "A wysiwyg on top of DraftJS.",
-  "main": "dist/react-draft-wysiwyg.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jpuri/react-draft-wysiwyg.git"
+    "url": "https://github.com/KylixMedusa/Rich-Text-Editor-React.git"
   },
-  "author": "Jyoti Puri",
+  "author": "Aayush Agarwal",
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
     "@babel/preset-react": "^7.7.4",
-    "@babel/register": "^7.7.4",
+    "@babel/register": "^7.12.10",
     "@storybook/react": "^5.2.8",
     "autoprefixer": "^9.7.3",
     "babel-eslint": "^10.0.3",
@@ -21,7 +20,7 @@
     "chai": "^4.2.0",
     "cross-env": "^6.0.3",
     "css-loader": "^3.2.1",
-    "draft-js": "^0.11.2",
+    "draft-js": "^0.11.7",
     "draftjs-to-html": "^0.9.0",
     "draftjs-to-markdown": "^0.6.0",
     "embed-video": "^2.0.4",
@@ -43,6 +42,7 @@
     "precss": "^4.0.0",
     "react": "^16.12.0",
     "react-addons-test-utils": "^15.6.2",
+    "react-build-dist": "0.0.8",
     "react-dom": "^16.12.0",
     "react-test-renderer": "^16.12.0",
     "rimraf": "^3.0.0",
@@ -50,7 +50,7 @@
     "style-loader": "^1.0.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "url-loader": "^3.0.0",
-    "webpack": "^4.41.2",
+    "webpack": "^4.46.0",
     "webpack-bundle-analyzer": "^3.6.0",
     "webpack-cli": "^3.3.10"
   },
@@ -79,5 +79,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/KylixMedusa"
+  }
 }
