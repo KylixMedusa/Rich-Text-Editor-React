@@ -1,6 +1,6 @@
 {
-  "name": "@KylixMedusa/editor-react-wysiwyg",
-  "version": "1.0.2",
+  "name": "editor-react-wysiwyg",
+  "version": "1.0.0",
   "description": "A wysiwyg on top of DraftJS.",
   "repository": {
     "type": "git",
@@ -81,6 +81,6 @@
   },
   "license": "MIT",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/KylixMedusa"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
